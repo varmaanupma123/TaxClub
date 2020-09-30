@@ -1,0 +1,187 @@
+body{
+	background-image:url('Images/bg.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+.container .jumbotron{
+	background-image:url('bg.png');
+	background-repeat:no-repeat;
+	box-shadow: 0 0 30px #0000A0;
+	border: 1px solid #0000A0;
+}
+
+/* HEADER */
+#header-nav{
+	background-color:#0000A0;
+	border-radius: 0;
+	border:0;
+}
+#logo-img{
+	margin:10px;
+	width:220px;
+	height: 150px;
+	margin-left:-20px;
+	border-radius:80%;
+}
+.navbar-brand{               /* logo and name */
+	padding-top:35px;
+}
+.navbar-brand h1{
+	color: white;
+	font-size: 39px;
+	font-stretch: expanded;
+	font-family: 'Century Schoolbook';
+	margin-top: 22px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration:none;
+}
+
+#nav-list{
+	margin-top:40px;
+}
+#nav-list a{
+	font-family:Monotype Corsiva;
+	color:white;
+	font-size:18px;
+}
+#nav-list a:hover{
+	color: pink;
+	font-size:20px;
+}
+#Service a{
+	background-color:inherit;
+}
+#Service ul{
+	background-color: #5DACBD;
+}
+
+/* END HEADER */
+
+/* Footer */
+.panel-footer{
+	font-size:10px;
+	color:white;
+	background-color:#0000A0;
+}
+.panel-footer h6{
+	text-align:center;
+	margin-top:30px;
+}
+
+.panel-footer h2{
+	text-align:center;
+	color:red;
+	font-family:Papyrus;
+}
+#client-name{
+	color:white;     /* #151B54; */
+	font-size:20px;
+	font-family:Nyala;
+}
+#dot{
+	margin-top:20px;
+	width:50px;
+	height:30px;
+	float:left;
+}
+/* End Footer */
+
+/********Large devices only ********/
+@media only screen and (min-width: 1200px){
+	
+}
+
+/********Medium devices only ********/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	/* Header */
+	#logo-img{
+		width: 180px;
+		height: 130px;
+	}
+	
+	.navbar-brand h1{
+		font-size:32px;
+	}
+	/* End Header */
+	
+	/* Footer */
+	.panel-footer{
+		margin-top:450px;
+	}
+	/* End Footer */
+	
+}
+/********Small devices only ********/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	/* Header */
+	#logo-img{
+		margin-left:2px;
+		width: 170px;
+		height: 120px;
+	}
+	
+	.navbar-brand h1{
+		margin-top:12px;
+		font-size:27px;
+	}
+	/* End Header */
+	
+	/* Footer */
+	.panel-footer{
+		margin-top:460px;
+	}
+	/* End Footer */
+	
+}
+/********Extra-Small devices only ********/
+@media only screen and (max-width: 767px){
+	
+	/* Header */
+	#logo-img{
+		margin-left:5px;
+		width: 150px;
+		height: 100px;
+	}
+	
+	#navbarToggle{/* collapsable menubar */
+		margin-top:35px;
+		border-color:blue;
+	}
+	
+	#navbarToggle span{/* collapsable menubar */
+		border-color:blue;
+	}
+	
+	.navbar-brand h1{ /* name */
+		margin-top:5px;
+		font-size: 25px;	/*1 vw= 1% of viewport width */	
+	}
+		
+	#collapsable-nav a{/* collapsable nav menu glyph */
+		font-size: 15px;
+	}
+	
+	/* Footer */
+	.panel-footer{
+		margin-top:480px;
+	}
+	/* End Footer */
+}
+
+/******** Super extra small devices (e.g. iphone etc.) ********/
+@media only screen and (max-width: 479px){
+	#menu-title, #special-title{
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	.col-xxs-12{
+		position: relative;
+		min-height: 1px;
+		padding-left:15px;
+		padding-right: 15px;
+		float:left;
+		width:100%;
+	}
+}
