@@ -106,12 +106,6 @@ body{
 	}
 	/* End Header */
 	
-	/* Footer */
-	.panel-footer{
-		margin-top:450px;
-	}
-	/* End Footer */
-	
 }
 /********Small devices only ********/
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -127,12 +121,6 @@ body{
 		font-size:27px;
 	}
 	/* End Header */
-	
-	/* Footer */
-	.panel-footer{
-		margin-top:460px;
-	}
-	/* End Footer */
 	
 }
 /********Extra-Small devices only ********/
@@ -162,12 +150,6 @@ body{
 	#collapsable-nav a{/* collapsable nav menu glyph */
 		font-size: 15px;
 	}
-	
-	/* Footer */
-	.panel-footer{
-		margin-top:480px;
-	}
-	/* End Footer */
 }
 
 /******** Super extra small devices (e.g. iphone etc.) ********/
