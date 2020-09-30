@@ -156,11 +156,6 @@ body{
 	}
 	/* End Header */
 	
-	/* Footer */
-	.panel-footer{
-		margin-top:450px;
-	}
-	/* End Footer */
 	
 }
 /********Small devices only ********/
@@ -178,11 +173,7 @@ body{
 	}
 	/* End Header */
 	
-	/* Footer */
-	.panel-footer{
-		margin-top:460px;
-	}
-	/* End Footer */
+	
 	
 	#img{    /* contact img */
 	margin-left:250px;
@@ -216,11 +207,6 @@ body{
 		font-size: 15px;
 	}
 	
-	/* Footer */
-	.panel-footer{
-		margin-top:480px;
-	}
-	/* End Footer */
 	
 	#img{    /* contact img */
 		margin-left:150px;
