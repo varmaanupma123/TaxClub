@@ -174,8 +174,12 @@ body{
 
 	
 	#img{    /* contact img */
-	margin-left:250px;
+		margin-left:250px;
 	}
+	.jumbotron p{
+		font-weight:bold;
+	}
+
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -215,6 +219,10 @@ body{
 	#detail-2 a{
 		margin-left:5px;
 	}
+	.jumbotron p{
+		font-weight:bold;
+	}
+
 }
 
 /******** Super extra small devices (e.g. iphone etc.) ********/
@@ -240,5 +248,9 @@ body{
 	#detail-2 a{
 		margin-left:5px;
 	}
+	.jumbotron p{
+		font-weight:bold;
+	}
+
 }
 
