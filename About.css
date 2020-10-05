@@ -116,7 +116,9 @@ body{
 	}
 	/* End Header */
 	
-	
+	.jumbotron p{
+		font-weight:bold;
+	}
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -145,7 +147,9 @@ body{
 	#collapsable-nav a{/* collapsable nav menu glyph */
 		font-size: 15px;
 	}
-	
+	.jumbotron p{
+		font-weight:bold;
+	}
 }
 
 /******** Super extra small devices (e.g. iphone etc.) ********/
@@ -161,6 +165,9 @@ body{
 		padding-right: 15px;
 		float:left;
 		width:100%;
+	}
+	.jumbotron p{
+		font-weight:bold;
 	}
 }
 
