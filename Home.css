@@ -9,7 +9,6 @@ body{
 .jumbotron{
 	margin:-20px 70px 0px 70px;
 	background:none;
-	
 }
 #abouttc{
 	background-image:url('abttc.jpeg');
@@ -73,7 +72,7 @@ a{
 	border-radius:10%;
 }
 
-/* About us */
+/* About us  image */
 .center{
 	display:block;
 	margin-left:auto;
@@ -94,10 +93,9 @@ a{
 #contactus{
 	text-align:center;
 	background:none;
-	font-size:15px;
 }
 #contactus a:hover{
-	font-size:20px;
+	font-size:25px;
 	color:blue;
 	text-decoration:none;
 }
@@ -201,6 +199,11 @@ a{
 	width: 270px;
 	height:200px;
 	}
+	/* jumbotron */
+	.jumbotron{
+	margin:-20px 58px 0px 58px;
+	background:none;
+	}
 }
 /********Small devices only ********/
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -216,12 +219,22 @@ a{
 		font-size:27px;
 	}
 	/* End Header */
-	
 	#h_services img{
 	/*padding-right:40px;*/
 	width: 250px;
 	height:200px;
 	}
+	/* about us image*/
+	.center{
+		width:160px;
+		height:220px;
+	}
+	/* jumbotron */
+	.jumbotron{
+	margin:-20px 40px 0px 40px;
+	background:none;
+	}
+	
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -255,7 +268,16 @@ a{
 	width: 230px;
 	height:200px;
 	}
-	
+	/* about us image*/
+	.center{
+		width:120px;
+		height:180px;
+	}
+	/* jumbotron */
+	.jumbotron{
+	margin:-20px 25px 0px 25px;
+	background:none;
+	}
 }
 
 /******** Super extra small devices (e.g. iphone etc.) ********/
@@ -274,7 +296,17 @@ a{
 	}
 	#h_services img{
 	/*padding-right:40px;*/
-	width: 200px;
+	width: 100px;
 	height:200px;
+	}
+	/* about us image*/
+	.center{
+		width:90px;
+		height:120px;
+	}
+	/* jumbotron */
+	.jumbotron{
+	margin:-20px 2px 0px 2px;
+	background:none;
 	}
 }
