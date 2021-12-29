@@ -94,10 +94,10 @@ a{
 #contactus{
 	text-align:center;
 	background:none;
-	font-size:12px;
+	font-size:15px;
 }
 #contactus a:hover{
-	font-size:25px;
+	font-size:20px;
 	color:blue;
 	text-decoration:none;
 }
