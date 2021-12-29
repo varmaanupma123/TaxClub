@@ -218,7 +218,7 @@ a{
 	
 	#h_services img{
 	/*padding-right:40px;*/
-	width: 320px;
+	width: 250px;
 	height:200px;
 	}
 }
@@ -249,7 +249,11 @@ a{
 	#collapsable-nav a{/* collapsable nav menu glyph */
 		font-size: 15px;
 	}
-	
+	#h_services img{
+	/*padding-right:40px;*/
+	width: 230px;
+	height:200px;
+	}
 	
 }
 
@@ -266,5 +270,10 @@ a{
 		padding-right: 15px;
 		float:left;
 		width:100%;
+	}
+	#h_services img{
+	/*padding-right:40px;*/
+	width: 200px;
+	height:200px;
 	}
 }
