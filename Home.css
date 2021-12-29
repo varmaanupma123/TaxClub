@@ -1,12 +1,99 @@
 body{
-	background-color:#5DACBD;
+	background-image:url('Images/BG.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
 	
 }
 .container .jumbotron{
-	background-image:url('bg.png');
+	/*background-image:url('Images/bg.png');*/
 	background-repeat:no-repeat;
 	box-shadow: 0 0 30px #0000A0;
 	border: 1px solid #0000A0;
+}
+/* Home --about tax*/
+
+.jumbotron{
+	margin:2px;
+}
+
+.jumbotron h2{
+	color:brown;
+	font-family:Papyrus;
+	text-align:center;
+}
+.jumbotron h3{
+	color:brown;
+	font-family:Papyrus;
+}
+.jumbotron p{
+	font-size:20px;
+	margin:5px;
+	font-family:Nyala;
+}
+.jumbotron li{
+	font-size:20px;
+	margin:5px;
+	font-family:Nyala; 
+}
+a{
+	font-size:20px;
+	margin:15px;
+	color: maroon;
+	font-family:Nyala;
+}
+/*---- home_service---*/
+
+#h_services .container{
+	/*background-color: gray;*/
+	margin-top:10px;
+	margin-bottom:10px;
+	/*width: 400px;
+	height:200px;*/
+	text-align:center;
+}
+#h_services h3{
+	font-size:20px;
+	
+}
+#h_services img{
+	/*padding-right:40px;*/
+	width: 400px;
+	height:200px;
+}
+/*      Services Img Hover     */
+.row .container img:hover{
+	box-shadow:10px 30px 10px gray;
+	border: 1px solid #0000A0;
+	border-radius:10%;
+}
+
+/* About us */
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:50%;
+	width:190px;
+	height:250px;
+}
+/* Advocate sumit saurabh */
+#name{
+	text-align:center;
+	font-family:Lucida Calligraphy;
+	color:maroon;
+}
+
+/*  Contact us number  */
+
+#contactus{
+	text-align:center;
+	background:none;
+}
+#contactus a:hover{
+	font-size:25px;
+	color:blue;
+	text-decoration:none;
 }
 
 /* HEADER */
@@ -67,12 +154,7 @@ body{
 	text-align:center;
 	margin-top:30px;
 }
-
-.panel-footer h2{
-	text-align:center;
-	color:red;
-	font-family:Papyrus;
-}
+/* End Footer */
 #client-name{
 	color:white;     /* #151B54; */
 	font-size:20px;
@@ -84,11 +166,15 @@ body{
 	height:30px;
 	float:left;
 }
-/* End Footer */
+
 
 /********Large devices only ********/
 @media only screen and (min-width: 1200px){
-	
+	#h_services img{
+	/*padding-right:40px;*/
+	width: 300px;
+	height:200px;
+	}
 }
 
 /********Medium devices only ********/
@@ -104,6 +190,11 @@ body{
 	}
 	/* End Header */
 	
+	#h_services img{
+	/*padding-right:40px;*/
+	width: 270px;
+	height:200px;
+	}
 }
 /********Small devices only ********/
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -120,6 +211,11 @@ body{
 	}
 	/* End Header */
 	
+	#h_services img{
+	/*padding-right:40px;*/
+	width: 320px;
+	height:200px;
+	}
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -148,6 +244,8 @@ body{
 	#collapsable-nav a{/* collapsable nav menu glyph */
 		font-size: 15px;
 	}
+	
+	
 }
 
 /******** Super extra small devices (e.g. iphone etc.) ********/
