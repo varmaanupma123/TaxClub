@@ -94,6 +94,7 @@ a{
 #contactus{
 	text-align:center;
 	background:none;
+	font-size:12px;
 }
 #contactus a:hover{
 	font-size:25px;
