@@ -1,6 +1,6 @@
 body{
 	/*background-image:url('Images/.jpg');*/
-	background-color:#e6e2d3;
+	background-color:black;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
@@ -72,8 +72,18 @@ a{
 	border: 1px solid #0000A0;
 	border-radius:10%;
 }
-
+#home_service{
+	background-color:#b2b2b2;
+}
 /* About us  image */
+
+#aboutus{
+	background-color:#eaece5;
+}
+
+#client{
+	background-color:#9fa9a3;
+}
 .center{
 	display:block;
 	margin-left:auto;
@@ -89,17 +99,6 @@ a{
 	color:maroon;
 }
 
-/*  Contact us number  */
-
-#contactus{
-	text-align:center;
-	background:none;
-}
-#contactus a:hover{
-	font-size:25px;
-	color:blue;
-	text-decoration:none;
-}
 
 /* HEADER */
 #header-nav{
@@ -157,7 +156,26 @@ a{
 }
 .panel-footer h6{
 	text-align:center;
-	margin-top:30px;
+}
+/* contact us */
+.panel-footer h2{
+	color:#9fa9a3;
+	font-size:35px;
+}
+.panel-footer a{
+	color:white;
+	font-size:16px;
+}
+.panel-footer .jumbotron{
+	text-align:center;
+}
+
+/*  Contact us number  */
+
+#contactus a:hover{
+	font-size:20px;
+	color:yellow;
+	text-decoration:none;
 }
 /* End Footer */
 #client-name{
