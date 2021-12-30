@@ -23,12 +23,13 @@ body{
 
 .jumbotron h2{
 	color:brown;
-	font-family:Papyrus;
+	font-family:  'Island Moments', cursive;  /*'Old Standard TT', serif;  /* 'IM Fell English SC', serif; */ 
+	font-size:50px;
 	text-align:center;
 }
 .jumbotron h3{
 	color:brown;
-	font-family:Papyrus;
+	font-family: 'Old Standard TT', serif; 
 }
 .jumbotron p{
 	font-size:20px;
@@ -40,6 +41,7 @@ body{
 	margin:5px;
 	font-family: 'El Messiri', sans-serif;; 
 }
+/*  know more */
 a{
 	font-size:20px;
 	margin:15px;
@@ -58,12 +60,11 @@ a{
 }
 #h_services h3{
 	font-size:20px;
-	
 }
 #h_services img{
 	/*padding-right:40px;*/
-	width: 400px;
-	height:200px;
+	width: 250px;
+	height:150px;
 }
 /*      Services Img Hover     */
 .row .container img:hover{
@@ -174,11 +175,6 @@ a{
 
 /********Large devices only ********/
 @media only screen and (min-width: 1200px){
-	#h_services img{
-	/*padding-right:40px;*/
-	width: 300px;
-	height:200px;
-	}
 }
 
 /********Medium devices only ********/
@@ -195,9 +191,11 @@ a{
 	/* End Header */
 	
 	#h_services img{
-	/*padding-right:40px;*/
-	width: 270px;
-	height:200px;
+	width: 200px;
+	height:150px;
+	}
+	#h_services h3{
+	font-size:17px;
 	}
 	/* jumbotron */
 	.jumbotron{
@@ -220,9 +218,11 @@ a{
 	}
 	/* End Header */
 	#h_services img{
-	/*padding-right:40px;*/
-	width: 250px;
-	height:200px;
+	width: 170px;
+	height:100px;
+	}
+	#h_services h3{
+	font-size:14px;
 	}
 	/* about us image*/
 	.center{
@@ -264,9 +264,11 @@ a{
 		font-size: 15px;
 	}
 	#h_services img{
-	/*padding-right:40px;*/
-	width: 230px;
-	height:200px;
+	width: 150px;
+	height:70px;
+	}
+	#h_services h3{
+	font-size:14px;
 	}
 	/* about us image*/
 	.center{
