@@ -1,9 +1,137 @@
 body{
-	background-image:url('homepage.png');
+	
+	background-color:#e0e2e4;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
-	overflow-x:hidden;
 }
+
+/* jumbotron whole web */
+#image-div {
+	margin:-20px 70px 0px 70px;
+	background-image:url('about.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.jumbotron{
+	margin:-20px 70px 0px 70px;
+	background:none;
+}
+.jumbotron h2{
+	color:brown;
+	font-family:  'Island Moments', cursive;  /*'Old Standard TT', serif;  /* 'IM Fell English SC', serif; */ 
+	font-size:50px;
+	text-align:center;
+	background-color:#ead83b;
+	margin-top:-45px ;
+}
+.jumbotron h3{
+	color:brown;
+	font-family: 'Old Standard TT', serif; 
+}
+.jumbotron p{
+	font-size:20px;
+	margin:5px;
+	color:black;
+	font-family: 'El Messiri', sans-serif;;
+}
+.jumbotron li{
+	font-size:20px;
+	margin:5px;
+	font-family: 'El Messiri', sans-serif;; 
+}
+
+
+/* about tax club */
+#abouttc{
+	background-image:url('abttc.jpeg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	color:white;
+}
+#abouttc h2{
+	margin-right:250px;
+	text-align:right;
+}
+
+/*  know more */
+a{
+	font-size:20px;
+	margin:15px;
+	color: maroon;
+	font-family: 'El Messiri', sans-serif;;
+}
+
+/*---- home_service---*/
+#h_services .container{
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+#h_services a{
+	font-size:23px;
+	text-decoration:none;
+}
+/*      Services Img Hover     */
+#h_services a:hover{
+	color:red;
+}
+
+/* background on jumbotrons */
+
+#home_service .jumbotron{
+	margin-top:50px;
+	background:none;
+}
+#home_service h2{
+	
+	margin-top:-50px;
+}
+/*#home_service{
+	background-color:#878f99;
+}*/
+#aboutus h2{
+	background-color:#ead83b;
+	margin-top:-50px;
+}
+/*#aboutus{
+	background-color:#878f99;
+}*/
+#client h2{
+	background-color:#ead83b;
+	margin-top:-50px;
+}
+/*#client{
+	background-color:#878f99;
+}*/
+
+/*  -----About Us image------ */
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:50%;
+	width:190px;
+	height:250px;
+}
+/* Advocate sumit saurabh */
+#name{
+	text-align:center;
+	font-family:Lucida Calligraphy;
+	color:maroon;
+}
+/* client  */
+#client-name{
+	color:white;     /* #151B54; */
+	font-size:20px;
+	font-family: 'El Messiri', sans-serif;;
+}
+#dot{
+	margin-top:20px;
+	width:50px;
+	height:30px;
+	float:left;
+}
+
 /* HEADER */
 #header-nav{
 	background-color:#0000A0;
@@ -31,7 +159,9 @@ body{
 	text-decoration:none;
 }
 
-#nav-list{
+/* menu */
+
+#nav-list{                   
 	margin-top:40px;
 }
 #nav-list a{
@@ -39,17 +169,32 @@ body{
 	color:white;
 	font-size:18px;
 }
+
+/****** Dropdown menu text color ******/
+#nav-list .dropdown-menu a:hover{
+	color:black;
+	font-size:23px;
+}
+/****** menu text color ******/
 #nav-list a:hover{
 	color: pink;
-	font-size:20px;
-}
+	font-size:23px;
+} 
 #Service a{
 	background-color:inherit;
 }
 #Service ul{
-	background-color: #5DACBD;
+	background-color: #8d9db6;  
+	border-radius:20px 0px;
+	
 }
 
+/****  toggle-button bg color  onclick  (right text) ****/
+/*#Service .dropdown-toggle:focus{
+	background-color:#9999ff;
+	border-radius:20px 20px 0px 0px;
+}
+*/
 /* END HEADER */
 
 /* Footer */
@@ -60,31 +205,35 @@ body{
 }
 .panel-footer h6{
 	text-align:center;
-	margin-top:30px;
-	margin-left:60px;
+}
+/* contact us */
+.panel-footer h2{
+	color:#9fa9a3;
+	font-size:35px;
+}
+.panel-footer a{
+	color:white;
+	font-size:16px;
+}
+.panel-footer .jumbotron{
+	text-align:center;
 }
 
-.panel-footer h2{
-	text-align:center;
-	color:red;
-	font-family:Papyrus;
+/*  Contact us number  */
+#contactus h3{
+	color:white;
 }
-#client-name{
-	color:white;     /* #151B54; */
+#contactus a:hover{
 	font-size:20px;
-	font-family:Nyala;
-}
-#dot{
-	margin-top:20px;
-	width:50px;
-	height:30px;
-	float:left;
+	color:yellow;
+	text-decoration:none;
 }
 /* End Footer */
 
+
+
 /********Large devices only ********/
 @media only screen and (min-width: 1200px){
-	
 }
 
 /********Medium devices only ********/
@@ -100,6 +249,15 @@ body{
 	}
 	/* End Header */
 	
+	
+	#h_services a{
+	font-size:22px;
+	}
+	/* jumbotron */
+	.jumbotron{
+	margin:-20px 58px 0px 58px;
+	background:none;
+	}
 }
 /********Small devices only ********/
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -116,9 +274,18 @@ body{
 	}
 	/* End Header */
 	
-	.jumbotron p{
-		font-weight:bold;
+	
+	/* about us image*/
+	.center{
+		width:160px;
+		height:220px;
 	}
+	/* jumbotron */
+	.jumbotron{
+	margin:-20px 40px 0px 40px;
+	background:none;
+	}
+	
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -147,8 +314,20 @@ body{
 	#collapsable-nav a{/* collapsable nav menu glyph */
 		font-size: 15px;
 	}
-	.jumbotron p{
-		font-weight:bold;
+	
+	/* about us image*/
+	.center{
+		width:120px;
+		height:180px;
+	}
+	/* jumbotron */
+	.jumbotron{
+		margin:-20px 25px 0px 25px;
+		background:none;
+	}
+	
+	.jumbotron h2{
+		margin-top:-30px ;
 	}
 }
 
@@ -166,40 +345,30 @@ body{
 		float:left;
 		width:100%;
 	}
-	.jumbotron p{
-		font-weight:bold;
+	
+	/* about us image*/
+	.center{
+		width:90px;
+		height:120px;
+	}
+	/* jumbotron */
+	.jumbotron{
+	margin:0px 2px 0px 2px;
+	background:none;
+	}
+	.jumbotron h2{
+		margin-top:-20px ;
 	}
 }
-
-.jumbotron h2{
-	text-align:center;
-	color:red;
-	font-family:Papyrus;
-}
-#about{
-	background-image:url(' about.png');
+/* jumbotron about/objective/values */
+/*#about{
+	background-image:url('about.png');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
 #values{
-	margin-top:-30px;
-	background-image:url(' values.jpg');
-	background-repeat:no-repeat;
-	background-size:100% 100%;
+	
 }
 #objective{
-	margin-top:-30px;
-	background-image:url(' objective.jpg');
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-}
-
-.jumbotron p{
-	font-size:20px;
-	margin:5px;
-	font-family:Nyala;
-}
-#objective p{
-	margin-left:50px;
-	width:300px;
-}
+	
+}*/
