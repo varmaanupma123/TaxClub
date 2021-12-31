@@ -5,13 +5,14 @@ body{
 	background-size:100% 100%;
 }
 
-/* jumbotron whole web */
+/* jumbotron background-image */
 #image-div {
 	margin:-20px 70px 0px 70px;
 	background-image:url('about.png');
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
+/* jumbotron whole web */
 .jumbotron{
 	margin:-20px 70px 0px 70px;
 	background:none;
@@ -256,7 +257,9 @@ a{
 	/* jumbotron */
 	.jumbotron{
 	margin:-20px 58px 0px 58px;
-	background:none;
+	}
+	#image-div {
+		margin:-20px 58px 0px 58px;
 	}
 }
 /********Small devices only ********/
@@ -283,9 +286,10 @@ a{
 	/* jumbotron */
 	.jumbotron{
 	margin:-20px 40px 0px 40px;
-	background:none;
 	}
-	
+	#image-div {
+		margin:-20px 40px 0px 40px;
+	}
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -323,9 +327,10 @@ a{
 	/* jumbotron */
 	.jumbotron{
 		margin:-20px 25px 0px 25px;
-		background:none;
 	}
-	
+	#image-div {
+		margin:-20px 25px 0px 25px;
+	}
 	.jumbotron h2{
 		margin-top:-30px ;
 	}
@@ -353,8 +358,10 @@ a{
 	}
 	/* jumbotron */
 	.jumbotron{
-	margin:0px 2px 0px 2px;
-	background:none;
+		margin:0px 2px 0px 2px;
+	}
+	#image-div {
+		margin:0px 2px 0px 2px;
 	}
 	.jumbotron h2{
 		margin-top:-20px ;
