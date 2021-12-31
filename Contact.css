@@ -1,9 +1,44 @@
 body{
-	background-image:url(' homepage.png');
+	background-color:#e0e2e4;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
-	overflow-x:hidden;
 }
+
+/* jumbotron whole web */
+
+.jumbotron{
+	/*background-image:url('contact.jpg');*/
+	margin:-20px 70px 0px 70px;
+	background:none;
+}
+.jumbotron h2{
+	color:brown;
+	font-family:  'Island Moments', cursive;  /*'Old Standard TT', serif;  /* 'IM Fell English SC', serif; */ 
+	font-size:50px;
+	text-align:center;
+}
+.jumbotron h3{
+	color:brown;
+	font-family: 'Old Standard TT', serif; 
+}
+.jumbotron p{
+	font-size:20px;
+	margin:5px;
+	font-family: 'El Messiri', sans-serif;;
+}
+.jumbotron li{
+	font-size:20px;
+	margin:5px;
+	font-family: 'El Messiri', sans-serif;; 
+}
+/* jumbotron background-image */
+#cnct-sec{
+	margin:-20px 70px 0px 70px;
+	background-image:url('contact.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
 /* HEADER */
 #header-nav{
 	background-color:#0000A0;
@@ -31,7 +66,9 @@ body{
 	text-decoration:none;
 }
 
-#nav-list{
+/* menu */
+
+#nav-list{                   
 	margin-top:40px;
 }
 #nav-list a{
@@ -39,40 +76,36 @@ body{
 	color:white;
 	font-size:18px;
 }
+
+/****** Dropdown menu text color ******/
+#nav-list .dropdown-menu a:hover{
+	color:black;
+	font-size:23px;
+}
+/****** menu text color ******/
 #nav-list a:hover{
 	color: pink;
-	font-size:20px;
-}
+	font-size:23px;
+} 
 #Service a{
 	background-color:inherit;
 }
 #Service ul{
-	background-color: #5DACBD;
+	background-color: #8d9db6;  
+	border-radius:20px 0px;
+	
 }
 
+/****  toggle-button bg color  onclick  (right text) ****/
+/*#Service .dropdown-toggle:focus{
+	background-color:#9999ff;
+	border-radius:20px 20px 0px 0px;
+}
+*/
 /* END HEADER */
 
  /* Contact */
  
-.jumbotron{
-	background-image:url(' contact.jpg');
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-}
-.jumbotron h2{           
-	text-align:center;
-	color:red;
-	font-family:Papyrus;
-}
-.jumbotron div{
-	margin-top:20px;
-	margin:10px;
-}
-.jumbotron p{
-	font-size:20px;
-	margin-top:25px;
-	font-family:Nyala;
-}
 #img{
 	margin-top:5px;
 	margin-left:80px;
@@ -111,26 +144,30 @@ body{
 }
 .panel-footer h6{
 	text-align:center;
-	margin-top:30px;
-	margin-left:60px;
+}
+/* contact us */
+.panel-footer h2{
+	color:#9fa9a3;
+	font-size:35px;
+}
+.panel-footer a{
+	color:white;
+	font-size:16px;
+}
+.panel-footer .jumbotron{
+	text-align:center;
 }
 
-.panel-footer h2{
-	text-align:center;
-	color:red;
-	font-family:Papyrus;
+/*  Contact us number  */
+#contactus h3{
+	color:white;
 }
-#client-name{
-	color:white;     /* #151B54; */
+#contactus a:hover{
 	font-size:20px;
-	font-family:Nyala;
+	color:yellow;
+	text-decoration:none;
 }
-#dot{
-	margin-top:20px;
-	width:50px;
-	height:30px;
-	float:left;
-}
+
 /* End Footer */
 
 
@@ -152,6 +189,13 @@ body{
 	}
 	/* End Header */
 	
+		/* jumbotron */
+	.jumbotron{
+		margin:-20px 58px 0px 58px;
+	}
+	#cnct-sec{
+		margin:-20px 58px 0px 58px;
+	}
 }
 /********Small devices only ********/
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -175,7 +219,13 @@ body{
 	.jumbotron p{
 		font-weight:bold;
 	}
-
+	/* jumbotron */
+	.jumbotron{
+		margin:-20px 40px 0px 40px;
+	}
+	#cnct-sec{
+		margin:-20px 40px 0px 40px;
+	}
 }
 /********Extra-Small devices only ********/
 @media only screen and (max-width: 767px){
@@ -218,6 +268,13 @@ body{
 	.jumbotron p{
 		font-weight:bold;
 	}
+	/* jumbotron */
+	.jumbotron{
+		margin:-20px 25px 0px 25px;
+	}
+	#cnct-sec{
+		margin:-20px 25px 0px 25px;
+	}
 
 }
 
@@ -247,6 +304,12 @@ body{
 	.jumbotron p{
 		font-weight:bold;
 	}
-
+	/* jumbotron */
+	.jumbotron{
+		margin:-20px 2px 0px 2px;
+	}
+	#cnct-sec{
+		margin:-20px 2px 0px 2px;
+	}
 }
 
